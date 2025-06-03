@@ -1,0 +1,98 @@
+.nav-bar {
+  background-color: white; 
+  text-align: center;
+  
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-bar a {
+   /* 노란 배경 */
+  color:  #3E3F5B; 
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-bar a:hover {
+  text-decoration: none;  
+  color: #F3C623;
+}
+
+.about-container {
+  color: #3E3F5B;
+  font-family: 'Arial', sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+
+.prof  {
+  text-align: left;
+   color: #3E3F5B;
+  font-size: 3em;
+  margin-bottom: 40px;
+  max-width: 800px;
+width: 90%;
+margin: 0 auto;
+
+}
+
+.profile {
+  display: flex;
+  align-items: center; /* ← flex-start → center */
+  gap: 40px;            /* ← 100px 너무 큼 */
+  flex-wrap: nowrap;    /* wrap 때문에 밀리는 거 방지 */
+  margin-bottom: 40px;  /* 아래 intro랑 간격 띄우기 */
+}
+
+.profile img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+  margin-top: 0;         /* 문제 원인 제거 */
+}
+
+
+.bio p {
+  margin: 30px 0;
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.bio a {
+  color: #F4B942;
+  text-decoration: underline;
+}
+
+.my-name {
+  font-size: 3em;
+  font-weight: bold;
+  color: #3E3F5B;  /* 파란색 */
+  font-family: 'Arial', sans-serif;
+}
+
+.intro {
+  max-width: 800px;
+  margin: 30px auto;         /* 위아래 여백 줄이기 */
+  padding: 20px;
+  background-color: white;
+  color: #3E3F5B;
+  font-size: 1.1em;
+  line-height: 1.6;
+  border-radius: 8px;
+ 
+}
+
+
+.intro h2 {
+  margin-bottom: 15px;
+  color: #3E3F5B;
+}
