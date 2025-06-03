@@ -23,6 +23,16 @@
   text-decoration: none;  
   color: #F3C623;
 }
+.skill {
+  text-align: center;        /* 텍스트도 가운데 정렬 */
+  color: #3E3F5B;
+  font-size: 3em;
+  margin-bottom: 40px;
+  max-width: 800px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 .project-container {
   padding: 50px;
   
